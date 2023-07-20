@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { logo } from "../../assets/index";
+// import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
   return (
-    <div className="font-bodyFont">
-      <div className="w-full h-20 mx-auto flex justify-between items-center">
-        <img
+    <div className="w-full h-20 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      <div>
+        {/* <img
           src={logo}
           alt="logo"
           className="rounded-full"
           style={{ width: "6.25rem", height: "6.25rem" }}
-        />
+        /> */}
       </div>
       <div>
         <ul className="flex items-center gap-10">
