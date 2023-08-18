@@ -12,14 +12,14 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full pt-10 pb-20 flex items-center border-b-[1px] font-titleFont border-b-black">
+      className="w-full py-20 flex items-center border-b-[1px] font-titleFont border-b-black">
 
       <div className="w-1/2">
         <div className="flex flex-col gap-5">
           <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
           <h1 className="text-6xl font-bold text-white">
             Hi, I'm{" "}
-            <span className="text-designColor capitalize">Moses king</span>
+            <span className="text-designColor capitalize">Moses King</span>
           </h1>
           <h2 className="text-4xl font-bold text-white">
             a <span>{text}</span>
@@ -30,10 +30,11 @@ const Banner = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-            I use animation as a third dimension by which to simplify
-            experiences and kuiding thouhj each and every ineraction. I'm not
-            adding motion just to spruce things up, but doing it in ways that.
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, minus temporibus! Iste enim illo exercitationem culpa pariatur. Non pariatur labore temporibus corrupti rem eum blanditiis porro, ad eius sequi laudantium voluptates aspernatur animi dolorem doloremque saepe, eveniet autem officia cupiditate?
           </p>
+        </div>
+        <div>
+          
         </div>
       </div>
 

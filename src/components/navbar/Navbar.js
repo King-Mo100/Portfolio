@@ -5,13 +5,13 @@ import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-20 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img
+    <div className="w-full h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      <div className="logoContainer">
+        <img 
           src={logo}
           alt="logo"
           className="rounded-full"
-          style={{ width: "6.25rem", height: "6.25rem" }}
+          style={{ width: "5.25rem", height: "5.25rem" }}
         />
       </div>
       <div>
