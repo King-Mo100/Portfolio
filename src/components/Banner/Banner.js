@@ -42,6 +42,14 @@ const Banner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
+          <div className="flex gap-4">
+            <span className="bannerIcon">
+              <FaLinkedinIn/>
+            </span>
+            <span className="bannerIcon">
+              <FaGithub/>
+            </span>
+          </div>
         </div>
       </div>
 
