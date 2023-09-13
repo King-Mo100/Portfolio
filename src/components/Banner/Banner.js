@@ -40,7 +40,7 @@ const Banner = () => {
           </p>
         </div>
         <div className="flex justify-between">
-          <div style={{ marginRight: "8em" }}>
+          <div className="findMe">
             <h2 className="text-base uppercase font-titleFont mb-4">
               Find me on
             </h2>

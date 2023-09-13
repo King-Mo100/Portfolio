@@ -9,4 +9,8 @@
         items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40
         hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300
     }
+
+    .findMe{
+        margin-right: 8em;
+    }
 }
