@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/Banner/Banner";
+import LeftBanner from "./components/Banner/LeftBanner";
 import Features from "./components/features/features";
 
 function App() {
