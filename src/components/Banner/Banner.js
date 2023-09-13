@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaGithub, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaLinkedin,  FaGithub,  FaTwitter,  FaReact, } from "react-icons/fa";
+import { SiHtml5,  SiCss3,  SiJavascript, SiPython} from "react-icons/si";
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -14,8 +14,8 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full py-20 flex items-center border-b-[1px] font-titleFont border-b-black">
-
+      className="w-full py-20 flex items-center border-b-[1px] font-titleFont border-b-black"
+    >
       <div className="w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
           <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
@@ -32,23 +32,51 @@ const Banner = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-           Maxime, minus temporibus! Iste enim illo exercitationem culpa pariatur. 
-           Non pariatur labore temporibus corrupti rem eum blanditiis porro,
-            ad eius sequi laudantium voluptates aspernatur animi dolorem doloremque saepe, eveniet autem officia cupiditate?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            minus temporibus! Iste enim illo exercitationem culpa pariatur. Non
+            pariatur labore temporibus corrupti rem eum blanditiis porro, ad
+            eius sequi laudantium voluptates aspernatur animi dolorem doloremque
+            saepe, eveniet autem officia cupiditate?
           </p>
         </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaLinkedinIn/>
-            </span>
-            <span className="bannerIcon">
-              <FaGithub/>
-            </span>
+        <div className="flex justify-between">
+          <div style={{ marginRight: "8em" }}>
+            <h2 className="text-base uppercase font-titleFont mb-4">
+              Find me on
+            </h2>
+            <div className="flex gap-4">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>
+              <span className="bannerIcon">
+                <FaLinkedin />
+              </span>
+            </div>
+          </div>
+          <div>
+            <h2 className="text-base uppercase font-titleFont mb-4"> 
+            Skills
+            </h2>
+            <div className="flex gap-4">
+              <span className="bannerIcon">
+                <SiHtml5 />
+              </span>
+              <span className="bannerIcon">
+                <SiCss3 />
+              </span>
+              <span className="bannerIcon">
+                <SiJavascript />
+              </span>
+              <span className="bannerIcon">
+                <FaReact/>
+              </span>
+              <span className="bannerIcon">
+                <SiPython/>
+              </span>
+            </div>
           </div>
         </div>
       </div>
