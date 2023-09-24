@@ -1,15 +1,23 @@
 import React from "react";
 import Title from "../layouts/Title";
+import Card from "./Card";
 
 const Features = () => {
   return (
     <section
       id="features"
-      className="w-full h-[800px] py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-b-black"
     >
-        <Title title="Features" des="What I Do"/>
-        <div className="w-1/2 px-12 h-80 py-10 rounded-lg sgadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group
-        hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100"></div>
+     <Title title="Features" des="What I Do"/>
+     <div className='grid grid-cols-3 gap-20'>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+
+     </div>
     </section>
   );
 };
