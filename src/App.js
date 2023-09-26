@@ -10,8 +10,8 @@ function App() {
       <div className="max-w-screen-xl mx-auto px-16">
         <Navbar />
         <Banner />
-        <Features />
         <Projects/>
+        <Features />
       </div>
     </div>
   );
