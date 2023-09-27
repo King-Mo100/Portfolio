@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCards from './ProjectCards'
+import { projectOne } from '../../assets/index'
 
 const Projects = () => {
   return (
@@ -15,7 +16,8 @@ const Projects = () => {
         <div className='grid grid-cols-3 gap-14'>
             <ProjectCards
             Title title="Weather App"
-            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>
+            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
+            src={projectOne}/>
             <ProjectCards
             Title title="Movie App"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>
