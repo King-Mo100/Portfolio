@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCards from './ProjectCards'
-import { projectOne } from '../../assets/index'
+import {projectOne} from '../../assets/index'
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='flex justify-center items-center text-center mb-8'>
             <Title 
             title= "Visit My Portfolio" 
-            des="My Projects"/>
+            des="My Projects"/> 
         </div>
         <div className='grid grid-cols-3 gap-14'>
             <ProjectCards
@@ -20,19 +20,24 @@ const Projects = () => {
             src={projectOne}/>
             <ProjectCards
             Title title="Movie App"
-            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>
+            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
+            src={projectOne}/>
                         <ProjectCards
             Title title="Bookify"
-            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>
+            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
+            src={projectOne}/>
                         <ProjectCards
             Title title="Simple Calculator"
-            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>
+            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
+            src={projectOne}/>
                         <ProjectCards
             Title title="Password Generator"
-            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>
+            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
+            src={projectOne}/>
                         <ProjectCards
             Title title="Chat Bot"
-            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."/>            
+            des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
+            src={projectOne}/>            
         </div>
         
     </section>
