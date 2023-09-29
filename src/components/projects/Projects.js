@@ -9,33 +9,32 @@ const Projects = () => {
     className="w-full py-20 border-b-[1px] border-b-black">
         
         <div className='flex justify-center items-center text-center mb-8'>
-            <Title 
-            title= "Visit My Portfolio" 
+            <Title title= "Visit My Portfolio" 
             des="My Projects"/> 
         </div>
         <div className='grid grid-cols-3 gap-14'>
-            <ProjectCards
-            Title title="Weather App"
+            <ProjectCards 
+            title="WEATHER APP"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
             <ProjectCards
-            Title title="Movie App"
+             title="MOVIE APP"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-            Title title="Bookify"
+             title="BOOKIFY"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-            Title title="Simple Calculator"
+             title="SIMPLE CALCULATOR"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-            Title title="Password Generator"
+             title="PASSWORD GENERATOR"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-            Title title="Chat Bot"
+             title="CHAT BOT"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>            
         </div>

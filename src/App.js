@@ -11,7 +11,6 @@ function App() {
         <Navbar />
         <Banner />
         <Projects/>
-        <Features />
       </div>
     </div>
   );
