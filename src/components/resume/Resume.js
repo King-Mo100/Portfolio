@@ -10,11 +10,19 @@ const Resume = () => {
         des="My Resume" />
       </div>
       <div>
-        <ul>
-            <li>Education</li>
-            <li>Professional Skills</li>
-            <li>Experience</li>
-            <li>Achievements</li>
+        <ul className="w-full grid grid-cols-4">
+            <li className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300
+            flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center 
+            border-[1px] rounded-none">Education</li>
+            <li className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300
+            flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center 
+            border-[1px] rounded-none">Professional Skills</li>
+            <li className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300
+            flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center 
+            border-[1px] rounded-none">Experience</li>
+            <li className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300
+            flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center 
+            border-[1px] rounded-none">Achievements</li>
         </ul>
       </div>
     </section>
