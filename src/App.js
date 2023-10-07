@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/Banner/Banner";
-import Features from "./components/features/features";
 import Projects from "./components/projects/Projects";
+import Resume from "./components/resume/Resume";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <Navbar />
         <Banner />
         <Projects/>
+        <Resume/>
       </div>
     </div>
   );

@@ -14,27 +14,27 @@ const Projects = () => {
         </div>
         <div className='grid grid-cols-3 gap-14'>
             <ProjectCards 
-            title="WEATHER APP"
+            title="Weather App"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
             <ProjectCards
-             title="MOVIE APP"
+             title="Movie App"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-             title="BOOKIFY"
+             title="Bookify"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-             title="SIMPLE CALCULATOR"
+             title="Simple Calculator"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-             title="PASSWORD GENERATOR"
+             title="Password Generator"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>
                         <ProjectCards
-             title="CHAT BOT"
+             title="Chat Bot"
             des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam."
             src={projectOne}/>            
         </div>
